@@ -15,8 +15,8 @@ public class CalculatorTest {
     
     @Test
     public void subThreeThree() throws Exception {
-        final int result = new Calculator().subtract(3, 3);
-        assertThat(result, is(0));
+        final int result = new Calculator().subtract(3, 2);
+        assertThat(result, is(1));
     }
     
     @Test
