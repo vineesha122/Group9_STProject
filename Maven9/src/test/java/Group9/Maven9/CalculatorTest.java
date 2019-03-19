@@ -21,8 +21,8 @@ public class CalculatorTest {
     
     @Test
     public void mulThreeThree() throws Exception {
-        final int result = new Calculator().multiply(3, 3);
-        assertThat(result, is(9));
+        final int result = new Calculator().multiply(4, 3);
+        assertThat(result, is(12));
     }
     
     @Test
