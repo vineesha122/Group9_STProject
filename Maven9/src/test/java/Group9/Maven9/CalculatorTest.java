@@ -31,13 +31,13 @@ public class CalculatorTest {
         assertThat(result, is(5));
     }
     
-    /*@Test
+    @Test
     public void subThreeThree() throws Exception {
         final int result = new Calculator().subtract(3, 3);
         assertThat(result, is(0));
     }
     
-    @Test
+   /* @Test
     public void mulThreeThree() throws Exception {
         final int result = new Calculator().multiply(4, 3);
         assertThat(result, is(12));
