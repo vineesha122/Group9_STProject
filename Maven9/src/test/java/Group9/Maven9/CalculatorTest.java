@@ -11,8 +11,13 @@ public class CalculatorTest {
 
 	@Test
 	public void add() throws Exception {
-		final int result = new Calculator().add(2, 3);
-        assertThat(result, is(5));
+		final int result = new Calculator().add(3, 3);
+        assertThat(result, is(6));
+	}
+	@Test
+	public void add1() throws Exception {
+		final int result = new Calculator().add(3, 3);
+        assertThat(result, is(6));
 	}
 	
 	
