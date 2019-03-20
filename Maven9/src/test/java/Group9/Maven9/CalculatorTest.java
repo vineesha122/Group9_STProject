@@ -19,7 +19,11 @@ public class CalculatorTest {
 		final int result = new Calculator().add(3, 3);
         assertThat(result, is(6));
 	}
-	
+	@Test
+	public void add2() throws Exception {
+		final int result = new Calculator().add(3, 3);
+        assertThat(result, is(6));
+	}
 	
 	/*@Test
     public void addTwoThree() throws Exception {
