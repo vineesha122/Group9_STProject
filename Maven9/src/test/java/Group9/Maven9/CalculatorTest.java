@@ -25,13 +25,13 @@ public class CalculatorTest {
         assertThat(result, is(6));
 	}
 	
-	/*@Test
+	@Test
     public void addTwoThree() throws Exception {
         final int result = new Calculator().add(2, 3);
         assertThat(result, is(5));
     }
     
-    @Test
+    /*@Test
     public void subThreeThree() throws Exception {
         final int result = new Calculator().subtract(3, 3);
         assertThat(result, is(0));
