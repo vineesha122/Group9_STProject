@@ -28,5 +28,9 @@ public class CalculatorintegrationIT {
 	public void it4() {
 		assertEquals(6,calint.multiply(calint.add(4,2),calint.subtract(4,3)));
 	}
+	@Test
+	public void it5() {
+		assertEquals(3,calint.divide(calint.add(4,2),calint.subtract(4,2)));
+	}
 
 }
