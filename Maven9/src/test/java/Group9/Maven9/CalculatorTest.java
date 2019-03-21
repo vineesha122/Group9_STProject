@@ -57,6 +57,13 @@ public class CalculatorTest {
     public void subThreeTwo() throws Exception {
         final int result = new Calculator().subtract(3, 2);
         assertThat(result, is(1));
+    }
+    @Test
+    public void divThreeMinusThree() throws Exception {
+        final Long result = (long) new Calculator().divide(3, -3);
+        assertThat(result, is(-1L));
+    }
+        
     
 	
 }
