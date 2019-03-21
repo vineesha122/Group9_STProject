@@ -16,5 +16,13 @@ public class CalculatorintegrationIT {
 	public void it1() {
 		assertEquals(4,calint.subtract(calint.add(4,4),calint.add(2,2)));
 	}
+	@Test
+	public void it2() {
+		assertEquals(12,calint.add(calint.add(4,4),calint.add(2,2)));
+	}
+	@Test
+	public void it3() {
+		assertEquals(4,calint.multiply(calint.add(1,1),calint.add(1,1)));
+	}
 
 }
