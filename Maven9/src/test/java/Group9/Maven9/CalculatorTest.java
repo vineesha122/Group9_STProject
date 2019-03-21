@@ -43,10 +43,10 @@ public class CalculatorTest {
         assertThat(result, is(12));
     }
     
-    /*@Test
+    @Test
     public void divThreeMinusThree() throws Exception {
         final Long result = (long) new Calculator().divide(3, -3);
         assertThat(result, is(-1L));
-    }*/
+    }
 	
 }
