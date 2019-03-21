@@ -59,9 +59,9 @@ public class CalculatorTest {
         assertThat(result, is(1));
     }
     @Test
-    public void divThreeMinusThree() throws Exception {
-        final Long result = (long) new Calculator().divide(3, -3);
-        assertThat(result, is(-1L));
+    public void divTenTwo() throws Exception {
+        final int result =  new Calculator().divide(10,2);
+        assertThat(result, is(5));
     }
         
     
