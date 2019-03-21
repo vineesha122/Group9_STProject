@@ -39,8 +39,8 @@ public class CalculatorTest {
     
     @Test
     public void mulThreeThree() throws Exception {
-        final int result = new Calculator().multiply(4, 3);
-        assertThat(result, is(12));
+        final int result = new Calculator().multiply(3, 3);
+        assertThat(result, is(9));
     }
     
     @Test
@@ -48,5 +48,11 @@ public class CalculatorTest {
         final Long result = (long) new Calculator().divide(3, -3);
         assertThat(result, is(-1L));
     }
+    @Test
+    public void mulThreeFour() throws Exception {
+        final int result = new Calculator().multiply(4, 3);
+        assertThat(result, is(12));
+    }
+    
 	
 }
