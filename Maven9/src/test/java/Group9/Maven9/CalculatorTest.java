@@ -53,6 +53,10 @@ public class CalculatorTest {
         final int result = new Calculator().multiply(4, 3);
         assertThat(result, is(12));
     }
+    @Test
+    public void subThreeTwo() throws Exception {
+        final int result = new Calculator().subtract(3, 2);
+        assertThat(result, is(1));
     
 	
 }
